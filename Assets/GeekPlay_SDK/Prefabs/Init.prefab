@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5023734575896185640
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5023734575896185686}
+  - component: {fileID: 5023734575896185641}
+  m_Layer: 0
+  m_Name: Init
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5023734575896185686
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5023734575896185640}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5023734575896185641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5023734575896185640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f52fbbe831174c3d8a435bfb785c320, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  language: 
+  mobile: 0
+  SoundOn: 1
+  PlayerData:
+    BestScore: 0
+    Review: 0
+    LastBuy: 
+    IsVolumeOn: 1
+  rewardsList: []
+  purchasesList:
+  - itemName: Big1
+    purchaseEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - itemName: Gold1
+    purchaseEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - itemName: Gold2
+    purchaseEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - itemName: Gold3
+    purchaseEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - itemName: Gold4
+    purchaseEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - itemName: Diamond1
+    purchaseEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - itemName: Diamond2
+    purchaseEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - itemName: Diamond3
+    purchaseEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - itemName: Diamond4
+    purchaseEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  Platform: 0
+  gameArterPrefab: {fileID: 0}
+  leaderboardBtn: {fileID: 0}
+  adOpen: 0
+  MultipleSpeedBuff: 1
+  TimeToShowReward: 0
+  TimePasedFromLastReward: 0
+  IsTournamentStart: 0
+  pausePopup: {fileID: 0}
+  canPause: 1
+  isOnPause: 0
+  isOnPromocodeZone: 0
+  lS: []
+  lN: []
+  leaderNumber: 0
+  leaderNumberN: 0
+  remainingTimeUntilUpdateLeaderboard: 60
+  timeToUpdateLeaderboard: 60
+  lastLeaderText: 
+  reviewPanel: {fileID: 0}
+  interstitialRemainingText: {fileID: 0}
+  interstitialTime: 75
+  pastedTimeFromLastInterstitial: 0
+  leaderboard: {fileID: 0}
